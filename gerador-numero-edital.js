@@ -3,7 +3,7 @@ const XLSX = require('xlsx');
 // Função para verificar se o número de edital já existe no banco de dados
 function verificarExistenciaEdital(numeroEdital) {
     // Carregar o arquivo Excel
-    const workbook = XLSX.readFile('caminho/para/seu/arquivo/excel.xlsx');
+    const workbook = XLSX.readFile('./Desenvolvimento/ambientes/Microsoft VS Code/workspace/CursoEmVideo/Gerador-de-numero-de-Edital/Pasta-Copiar.xlsx');
     
     // Selecionar a primeira planilha do arquivo
     const sheetName = workbook.SheetNames[0];
