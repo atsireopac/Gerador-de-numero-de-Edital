@@ -1,0 +1,72 @@
+/* Estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #004080;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para o formulário e seus elementos */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"],
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box; /* Garante que o padding não altere a largura total */
+}
+
+button {
+  background-color: #004080;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0055a5;
+}
+
+/* Estilos para o resultado */
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #004080;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
