@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 /* Estilos para o corpo da página */
 body {
   font-family: Arial, sans-serif;
@@ -11,14 +15,10 @@ body {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
-}
-
-/* Estilos para o cabeçalho */
-header {
-  background-color: #004080;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adicionado para centralizar verticalmente */
 }
 
 /* Estilos para o formulário e seus elementos */
@@ -32,13 +32,15 @@ form {
 label {
   display: block;
   margin-bottom: 10px;
+  margin-left: 710px;
 }
 
 input[type="number"],
 button {
   padding: 10px;
-  margin-bottom: 10px;
-  width: 100%;
+  margin-bottom: 0px;
+  margin-left: 710px;
+  width: 10%;
   box-sizing: border-box; /* Garante que o padding não altere a largura total */
 }
 
@@ -58,15 +60,4 @@ button:hover {
   margin-top: 20px;
   font-size: 18px;
   text-align: center;
-}
-
-/* Estilos para o rodapé */
-footer {
-  background-color: #004080;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
